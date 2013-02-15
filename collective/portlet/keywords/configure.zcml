@@ -6,6 +6,7 @@
     i18n_domain="collective.portlet.keywords">
 
   <include file="upgrades.zcml"/>
+  <include package="plone.app.portlets"/>
   <include package="Products.CMFCore" file="permissions.zcml"/>
 
   <genericsetup:registerProfile
@@ -21,10 +22,8 @@
      interface=".keywords.IKeywords"
      assignment=".keywords.Assignment"
      view_permission="zope2.View"
-     edit_permission="cmf.ManagePortal"
      renderer=".keywords.Renderer"
      addview=".keywords.AddForm"
-     editview=".keywords.EditForm"
      />
 
 </configure>

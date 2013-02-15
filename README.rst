@@ -1,7 +1,8 @@
 Introduction
 ============
 
-
+This addon register a portlet to display all keywords with link to the search
+engine to find every content corresponding to a keyword.
 
 How to install
 ==============
